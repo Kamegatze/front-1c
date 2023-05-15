@@ -98,50 +98,6 @@ const CreateEntity = () => {
                 </Form>
             </Card>
         </Container>
-        
-        // <div className="body">
-        //     <div className="header">
-        //         <h3>Создание сущности</h3>
-        //     </div>
-        //     <form className="form-size">
-        //         <div className="mb-3">
-        //             <label htmlFor="input-name-entity" className="form-label">Имя сущности</label>
-        //             <input type="text" id="input-name-entity"
-        //             className="form-control"
-        //             value={nameEntity}
-        //             onChange={(e) => change(e, setNameEntity)}
-        //             placeholder="Введите имя сущности"/>
-        //         </div>
-        //         <div className="mb-3">
-        //             <label htmlFor="input-name-field" className="form-label">Имя поля</label>
-        //             <input type="text" id="input-name-field"
-        //             onChange={(e) => change(e, setName)}
-        //             value={name}
-        //             className="form-control" 
-        //             placeholder="Введите имя поля"/>
-        //         </div>
-        //         <div className="mb-3">
-        //             <label htmlFor="input-type-field" className="form-label">Имя типа</label>
-        //             <input type="text" id="input-type-field"
-        //             onChange={(e) => change(e, setType)}
-        //             value={type}
-        //             className="form-control" 
-        //             placeholder="Введите имя типа"/>
-        //         </div>
-        //         <div className="button">
-        //             <button onClick={() => sendData(fieldData, nameEntity, setFieldData, setNameEntity)} className="btn btn-primary" type="button">Созданть сущность</button>
-        //             &nbsp;
-        //             <button onClick={() => addField(fieldData, setFieldData, name, type, setName, setType)} className="btn btn-primary" type="button">Добавить поле сущности</button>
-        //         </div>
-        //         <div className="button">
-        //             <button onClick={() => setView(!view)} type="button" className="btn btn-primary">Добавить связь</button>
-        //         </div>
-        //         <div>{
-        //             view ? add_relationship : null
-        //             }
-        //         </div>
-        //     </form>
-        // </div>
     );
 }
 
