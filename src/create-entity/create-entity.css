@@ -10,4 +10,9 @@
 .button{
     display: flex;
     justify-content: flex-start;
+    margin: 0.5em 0;
+}
+
+.relationship{
+    display: flex;
 }
