@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    margin: 2em 20em;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-start;
+}
