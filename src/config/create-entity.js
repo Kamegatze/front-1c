@@ -9,7 +9,7 @@ export const createEntity = async(fields, nameEntity) => {
 };
 
 export const createRelationship = async(relation, entityOne, entityTwo) => {
-    console.log(`/create_${relation}?nameOne=${entityOne}&nameTwo=${entityTwo}`);
-    const {data} = await axios.get(`/create_${relation}?nameOne=${entityOne}&nameTwo=${entityTwo}`);
+    console.log(`/create_entity/create_${relation}?nameOne=${entityOne}&nameTwo=${entityTwo}`);
+    const {data} = await axios.get(`/create_entity/create_${relation}?nameOne=${entityOne}&nameTwo=${entityTwo}`);
     return data;
 };
